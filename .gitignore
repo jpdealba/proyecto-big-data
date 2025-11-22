@@ -1,0 +1,89 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.egg
+*.log
+*.tmp
+*.temp
+
+# ---- Entornos ----
+.env
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# ---- Bases de datos / cachés ----
+*.sqlite
+*.db
+*.db3
+
+# ---- Archivos de configuración locales ----
+*.local
+*.secret
+*.cache
+*credentials*
+*token*
+.aws/
+
+# ---- Parquet, CSV, datos grandes ----
+*.parquet
+*.csv
+*.tsv
+*.zip
+*.gz
+
+# (Si quieres incluir los parquet de resultados, quita el *.parquet arriba)
+
+# ---- Mapas exportados ----
+*.html
+
+# ---- Editor ----
+.vscode/
+.history/
+*.code-workspace
+
+# ---- Mac OS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Linux ----
+*~
+*.swp
+*.swo
+
+# ---- Logs de sistemas ----
+logs/
+*.log
+*.out
+*.err
+
+# ---- Modelos / IA ----
+*.h5
+*.pt
+*.onnx
+*.pickle
+
+# ---- Carpetas de salida ----
+build/
+dist/
+output/
+data/
+tmp/
+
+# ---- Carpetas de tu proyecto que NO deberían subirse ----
+# gold_clusters/
+# figures_clusters/
+# traffic_clusters_map.html

@@ -47,7 +47,7 @@ s3://glue-bucket-traffic-725895/
   │   └── TRAFFIC_DATA_SILVER_PARQUET/  # Parquet limpio (job Plata)
   │
   ├── gold/
-  │   ├── TRAFFIC_DATA_GOLD_TS_PIVOT/   # Serie temporal pivot por ubicación (job Oro)
-  │   └── TRAFFIC_DATA_GOLD_CLUSTERS/   # Resultado de clustering (job Clustering)
+  │   ├── TRAFFIC_DATA_GOLD_TS_PIVOT_MX/   # Serie temporal pivot por ubicación (job Oro)
+  │   └── TRAFFIC_DATA_GOLD_CLUSTERS_MX/   # Resultado de clustering (job Clustering)
   │
   └── ...

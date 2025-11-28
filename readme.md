@@ -1,5 +1,10 @@
 # Arquitectura Medallion para Análisis de Tráfico
 
+## Colaboradores del Proyecto
+Santiago Esparragoza - 0161298
+
+Juan Pablo de Alba - 0278627
+
 ## Objetivo del Proyecto
 
 Implementar una **arquitectura Medallion en AWS Glue** para procesar datos de tráfico vehicular con las siguientes etapas:

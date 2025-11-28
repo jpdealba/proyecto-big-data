@@ -118,7 +118,7 @@ df_ts.select("hour_mx").distinct().orderBy("hour_mx").show(50, truncate=False)
 # ============================================
 # Horas objetivo en hora local MX, según el enunciado:
 # 7 am, 9 am, 11 am, 13 pm, 15 pm, 17 pm, 19 pm, 21 pm, 23 pm y 1 am
-ALLOWED_HOURS_MX = [1, 7, 9, 11, 13, 15, 17, 19, 21, 23]
+ALLOWED_HOURS_MX = [ 7, 9, 11, 13, 15, 17, 19, 21, 23]
 
 logger.info(f"Horas locales MX usadas en la serie temporal: {ALLOWED_HOURS_MX}")
 
